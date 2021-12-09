@@ -38,7 +38,6 @@ function Root() {
     const anchorRef2 = React.useRef<HTMLButtonElement>(null);
     return (
         <BrowserRouter>
-<<<<<<< HEAD
             <div>
                 <nav className="navBar">
                     <div className="navItem">
@@ -176,15 +175,6 @@ function Root() {
                     <Redirect from="" to="/" />
                 </Switch>
             </div>
-=======
-            <Switch>
-                <Route exact path="/build">
-                    <About />
-                </Route>
-                <Route path="/" exact component={App} />
-                <Redirect from="" to="/" />
-            </Switch>
->>>>>>> 2494bbf7b1740678414f465a22db119c910bb53c
         </BrowserRouter>
     );
 }
